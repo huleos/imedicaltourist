@@ -1,0 +1,257 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon-buddies-before-name: 'icon-buddies:before';
+$icon-buddies-before-x: 183px;
+$icon-buddies-before-y: 200px;
+$icon-buddies-before-offset-x: -183px;
+$icon-buddies-before-offset-y: -200px;
+$icon-buddies-before-width: 55px;
+$icon-buddies-before-height: 30px;
+$icon-buddies-before-total-width: 269px;
+$icon-buddies-before-total-height: 261px;
+$icon-buddies-before-image: '../img/sprite.png';
+$icon-buddies-before: (183px, 200px, -183px, -200px, 55px, 30px, 269px, 261px, '../img/sprite.png', 'icon-buddies:before', );
+$icon-buddy-before-name: 'icon-buddy:before';
+$icon-buddy-before-x: 238px;
+$icon-buddy-before-y: 200px;
+$icon-buddy-before-offset-x: -238px;
+$icon-buddy-before-offset-y: -200px;
+$icon-buddy-before-width: 24px;
+$icon-buddy-before-height: 29px;
+$icon-buddy-before-total-width: 269px;
+$icon-buddy-before-total-height: 261px;
+$icon-buddy-before-image: '../img/sprite.png';
+$icon-buddy-before: (238px, 200px, -238px, -200px, 24px, 29px, 269px, 261px, '../img/sprite.png', 'icon-buddy:before', );
+$icon-dental-color-before-name: 'icon-dental-color:before';
+$icon-dental-color-before-x: 207px;
+$icon-dental-color-before-y: 124px;
+$icon-dental-color-before-offset-x: -207px;
+$icon-dental-color-before-offset-y: -124px;
+$icon-dental-color-before-width: 61px;
+$icon-dental-color-before-height: 61px;
+$icon-dental-color-before-total-width: 269px;
+$icon-dental-color-before-total-height: 261px;
+$icon-dental-color-before-image: '../img/sprite.png';
+$icon-dental-color-before: (207px, 124px, -207px, -124px, 61px, 61px, 269px, 261px, '../img/sprite.png', 'icon-dental-color:before', );
+$icon-hotels-color-before-name: 'icon-hotels-color:before';
+$icon-hotels-color-before-x: 207px;
+$icon-hotels-color-before-y: 0px;
+$icon-hotels-color-before-offset-x: -207px;
+$icon-hotels-color-before-offset-y: 0px;
+$icon-hotels-color-before-width: 62px;
+$icon-hotels-color-before-height: 62px;
+$icon-hotels-color-before-total-width: 269px;
+$icon-hotels-color-before-total-height: 261px;
+$icon-hotels-color-before-image: '../img/sprite.png';
+$icon-hotels-color-before: (207px, 0px, -207px, 0px, 62px, 62px, 269px, 261px, '../img/sprite.png', 'icon-hotels-color:before', );
+$icon-hotels-before-name: 'icon-hotels:before';
+$icon-hotels-before-x: 138px;
+$icon-hotels-before-y: 0px;
+$icon-hotels-before-offset-x: -138px;
+$icon-hotels-before-offset-y: 0px;
+$icon-hotels-before-width: 69px;
+$icon-hotels-before-height: 69px;
+$icon-hotels-before-total-width: 269px;
+$icon-hotels-before-total-height: 261px;
+$icon-hotels-before-image: '../img/sprite.png';
+$icon-hotels-before: (138px, 0px, -138px, 0px, 69px, 69px, 269px, 261px, '../img/sprite.png', 'icon-hotels:before', );
+$icon-medical-color-before-name: 'icon-medical-color:before';
+$icon-medical-color-before-x: 122px;
+$icon-medical-color-before-y: 200px;
+$icon-medical-color-before-offset-x: -122px;
+$icon-medical-color-before-offset-y: -200px;
+$icon-medical-color-before-width: 61px;
+$icon-medical-color-before-height: 61px;
+$icon-medical-color-before-total-width: 269px;
+$icon-medical-color-before-total-height: 261px;
+$icon-medical-color-before-image: '../img/sprite.png';
+$icon-medical-color-before: (122px, 200px, -122px, -200px, 61px, 61px, 269px, 261px, '../img/sprite.png', 'icon-medical-color:before', );
+$icon-medical-before-name: 'icon-medical:before';
+$icon-medical-before-x: 138px;
+$icon-medical-before-y: 69px;
+$icon-medical-before-offset-x: -138px;
+$icon-medical-before-offset-y: -69px;
+$icon-medical-before-width: 69px;
+$icon-medical-before-height: 69px;
+$icon-medical-before-total-width: 269px;
+$icon-medical-before-total-height: 261px;
+$icon-medical-before-image: '../img/sprite.png';
+$icon-medical-before: (138px, 69px, -138px, -69px, 69px, 69px, 269px, 261px, '../img/sprite.png', 'icon-medical:before', );
+$icon-mini-markets-color-before-name: 'icon-mini-markets-color:before';
+$icon-mini-markets-color-before-x: 124px;
+$icon-mini-markets-color-before-y: 138px;
+$icon-mini-markets-color-before-offset-x: -124px;
+$icon-mini-markets-color-before-offset-y: -138px;
+$icon-mini-markets-color-before-width: 62px;
+$icon-mini-markets-color-before-height: 62px;
+$icon-mini-markets-color-before-total-width: 269px;
+$icon-mini-markets-color-before-total-height: 261px;
+$icon-mini-markets-color-before-image: '../img/sprite.png';
+$icon-mini-markets-color-before: (124px, 138px, -124px, -138px, 62px, 62px, 269px, 261px, '../img/sprite.png', 'icon-mini-markets-color:before', );
+$icon-percent-before-name: 'icon-percent:before';
+$icon-percent-before-x: 0px;
+$icon-percent-before-y: 0px;
+$icon-percent-before-offset-x: 0px;
+$icon-percent-before-offset-y: 0px;
+$icon-percent-before-width: 69px;
+$icon-percent-before-height: 69px;
+$icon-percent-before-total-width: 269px;
+$icon-percent-before-total-height: 261px;
+$icon-percent-before-image: '../img/sprite.png';
+$icon-percent-before: (0px, 0px, 0px, 0px, 69px, 69px, 269px, 261px, '../img/sprite.png', 'icon-percent:before', );
+$icon-pharmacies-color-before-name: 'icon-pharmacies-color:before';
+$icon-pharmacies-color-before-x: 0px;
+$icon-pharmacies-color-before-y: 200px;
+$icon-pharmacies-color-before-offset-x: 0px;
+$icon-pharmacies-color-before-offset-y: -200px;
+$icon-pharmacies-color-before-width: 61px;
+$icon-pharmacies-color-before-height: 61px;
+$icon-pharmacies-color-before-total-width: 269px;
+$icon-pharmacies-color-before-total-height: 261px;
+$icon-pharmacies-color-before-image: '../img/sprite.png';
+$icon-pharmacies-color-before: (0px, 200px, 0px, -200px, 61px, 61px, 269px, 261px, '../img/sprite.png', 'icon-pharmacies-color:before', );
+$icon-restaurants-color-before-name: 'icon-restaurants-color:before';
+$icon-restaurants-color-before-x: 62px;
+$icon-restaurants-color-before-y: 138px;
+$icon-restaurants-color-before-offset-x: -62px;
+$icon-restaurants-color-before-offset-y: -138px;
+$icon-restaurants-color-before-width: 62px;
+$icon-restaurants-color-before-height: 62px;
+$icon-restaurants-color-before-total-width: 269px;
+$icon-restaurants-color-before-total-height: 261px;
+$icon-restaurants-color-before-image: '../img/sprite.png';
+$icon-restaurants-color-before: (62px, 138px, -62px, -138px, 62px, 62px, 269px, 261px, '../img/sprite.png', 'icon-restaurants-color:before', );
+$icon-retails-color-before-name: 'icon-retails-color:before';
+$icon-retails-color-before-x: 0px;
+$icon-retails-color-before-y: 138px;
+$icon-retails-color-before-offset-x: 0px;
+$icon-retails-color-before-offset-y: -138px;
+$icon-retails-color-before-width: 62px;
+$icon-retails-color-before-height: 62px;
+$icon-retails-color-before-total-width: 269px;
+$icon-retails-color-before-total-height: 261px;
+$icon-retails-color-before-image: '../img/sprite.png';
+$icon-retails-color-before: (0px, 138px, 0px, -138px, 62px, 62px, 269px, 261px, '../img/sprite.png', 'icon-retails-color:before', );
+$icon-save-up-before-name: 'icon-save-up:before';
+$icon-save-up-before-x: 69px;
+$icon-save-up-before-y: 69px;
+$icon-save-up-before-offset-x: -69px;
+$icon-save-up-before-offset-y: -69px;
+$icon-save-up-before-width: 69px;
+$icon-save-up-before-height: 69px;
+$icon-save-up-before-total-width: 269px;
+$icon-save-up-before-total-height: 261px;
+$icon-save-up-before-image: '../img/sprite.png';
+$icon-save-up-before: (69px, 69px, -69px, -69px, 69px, 69px, 269px, 261px, '../img/sprite.png', 'icon-save-up:before', );
+$icon-spa-color-before-name: 'icon-spa-color:before';
+$icon-spa-color-before-x: 61px;
+$icon-spa-color-before-y: 200px;
+$icon-spa-color-before-offset-x: -61px;
+$icon-spa-color-before-offset-y: -200px;
+$icon-spa-color-before-width: 61px;
+$icon-spa-color-before-height: 61px;
+$icon-spa-color-before-total-width: 269px;
+$icon-spa-color-before-total-height: 261px;
+$icon-spa-color-before-image: '../img/sprite.png';
+$icon-spa-color-before: (61px, 200px, -61px, -200px, 61px, 61px, 269px, 261px, '../img/sprite.png', 'icon-spa-color:before', );
+$icon-transportation-color-before-name: 'icon-transportation-color:before';
+$icon-transportation-color-before-x: 207px;
+$icon-transportation-color-before-y: 62px;
+$icon-transportation-color-before-offset-x: -207px;
+$icon-transportation-color-before-offset-y: -62px;
+$icon-transportation-color-before-width: 62px;
+$icon-transportation-color-before-height: 62px;
+$icon-transportation-color-before-total-width: 269px;
+$icon-transportation-color-before-total-height: 261px;
+$icon-transportation-color-before-image: '../img/sprite.png';
+$icon-transportation-color-before: (207px, 62px, -207px, -62px, 62px, 62px, 269px, 261px, '../img/sprite.png', 'icon-transportation-color:before', );
+$icon-transportation-before-name: 'icon-transportation:before';
+$icon-transportation-before-x: 0px;
+$icon-transportation-before-y: 69px;
+$icon-transportation-before-offset-x: 0px;
+$icon-transportation-before-offset-y: -69px;
+$icon-transportation-before-width: 69px;
+$icon-transportation-before-height: 69px;
+$icon-transportation-before-total-width: 269px;
+$icon-transportation-before-total-height: 261px;
+$icon-transportation-before-image: '../img/sprite.png';
+$icon-transportation-before: (0px, 69px, 0px, -69px, 69px, 69px, 269px, 261px, '../img/sprite.png', 'icon-transportation:before', );
+$icon-years-before-name: 'icon-years:before';
+$icon-years-before-x: 69px;
+$icon-years-before-y: 0px;
+$icon-years-before-offset-x: -69px;
+$icon-years-before-offset-y: 0px;
+$icon-years-before-width: 69px;
+$icon-years-before-height: 69px;
+$icon-years-before-total-width: 269px;
+$icon-years-before-total-height: 261px;
+$icon-years-before-image: '../img/sprite.png';
+$icon-years-before: (69px, 0px, -69px, 0px, 69px, 69px, 269px, 261px, '../img/sprite.png', 'icon-years:before', );
+$spritesheet-width: 269px;
+$spritesheet-height: 261px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($icon-buddies-before, $icon-buddy-before, $icon-dental-color-before, $icon-hotels-color-before, $icon-hotels-before, $icon-medical-color-before, $icon-medical-before, $icon-mini-markets-color-before, $icon-percent-before, $icon-pharmacies-color-before, $icon-restaurants-color-before, $icon-retails-color-before, $icon-save-up-before, $icon-spa-color-before, $icon-transportation-color-before, $icon-transportation-before, $icon-years-before, );
+$spritesheet: (269px, 261px, '../img/sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

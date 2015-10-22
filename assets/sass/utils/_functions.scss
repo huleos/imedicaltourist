@@ -1,0 +1,8 @@
+////////////////////////////////////
+// Functions
+////////////////////////////////////
+
+// remCal 
+@function remCalc($size, $base-value: 16) {
+  @return ($size / $base-value) + rem;
+}

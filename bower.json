@@ -1,0 +1,20 @@
+{
+  "name": "imedicaltourist",
+  "version": "0.0.1",
+  "homepage": "https://github.com/huleos/imedicaltourist",
+  "authors": [
+    "Julio Cesar Montenegro <creativo@686studio.com>"
+  ],
+  "description": "Project Im Medical Tourist with CodeIgniter",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha"
+  }
+}

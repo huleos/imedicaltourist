@@ -1,0 +1,100 @@
+////////////////////////////////////
+// Footer
+////////////////////////////////////
+
+footer{
+	padding: remCalc(42) 0;
+	background-color: $brand-purple;
+}
+
+.footer-social {
+	text-align: center;
+	li{
+		width: remCalc(46);
+		.facebook:hover{
+			circle{
+				fill: darken($facebook-color, 10%);
+			}
+		}
+		.twitter:hover{
+			circle{
+				fill: darken($twitter-color, 10%);
+			}
+		}
+		.youtube:hover{
+			circle{
+				fill: darken($youtube-color, 10%);
+			}
+		}
+		.google:hover{
+			circle{
+				fill: darken($google-color, 10%);
+			}
+		}
+	}
+}
+
+.footer-nav{
+	text-align: center;
+	padding-left: 0;
+	list-style: none;
+	li{
+		a{
+			font-size: remCalc(20);
+			color: $footer-nav-link-color;
+			display: block;
+			padding: remCalc(18);
+			border-bottom: 1px solid $footer-nav-link-border-bottom;
+			&:hover{
+				background-color: $footer-nav-link-hover-bg;
+				color: $footer-nav-link-hover-color;
+				text-decoration: none;
+			}
+		}
+		&.active{
+			a{
+				background-color: $footer-nav-link-hover-bg;
+				color: $footer-nav-link-hover-color;
+			}
+		}
+	}
+}
+
+.copyright{
+	color: $copyright-color;
+	text-align: center;
+	margin-top: remCalc(32);
+}
+
+
+// Breakpoint Medium
+@media #{$breakpoint-md} {
+	
+	.footer-nav{
+		margin-top: remCalc(16);
+		li{
+			display: inline-block;
+			border-right: 1px solid $footer-nav-link-border-right;
+			margin-left: remCalc(-4);
+			a{
+				font-size: remCalc(15);
+				border-bottom: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				&:hover{
+					background-color: transparent;
+				}
+			}
+			&.active{
+			a{
+				background-color: transparent;
+			}
+		}
+		&:last-child{
+			border: 0;
+		}
+		}
+	}
+
+}
+// End Breakpoint Medium

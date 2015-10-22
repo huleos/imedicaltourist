@@ -1,0 +1,33 @@
+////////////////////////////////////
+// I'm Medical Tourist Style 1.0.0
+////////////////////////////////////
+
+// Import Bootstrap and Google Fonts
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700';
+@import 'bootstrap';
+//@import 'bootstrap-flex';
+
+// Utilities functions, variables and mixins
+@import 'utils/functions';
+@import 'utils/variables';
+//@import "components/mixins";
+
+// Components CSS
+@import 'components/sprite';
+@import 'components/breadcrumbs';
+@import 'components/buttons';
+@import 'components/cover';
+@import 'components/forms';
+@import 'components/images';
+@import 'components/lists';
+@import 'components/reboot';
+@import 'components/type';
+
+// Layout
+@import 'layout/header';
+@import 'layout/content';
+@import 'layout/footer';
+
+// Pages
+@import 'pages/homepage';
+@import 'pages/all-pages';

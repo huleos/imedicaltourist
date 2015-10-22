@@ -1,0 +1,96 @@
+////////////////////////////////////
+// Lists
+////////////////////////////////////
+
+ul{
+	&.disc{
+		list-style-type: disc;
+		padding-left: remCalc(20);
+	}
+	&.circle{
+		list-style-type: circle;
+		padding-left: remCalc(20);
+	}
+	&.square{
+		list-style-type: square;
+		padding-left: remCalc(20);
+	}
+}
+
+.i-box{
+	margin-bottom: remCalc(15);
+	@include clearfix;
+	.left{
+		width: 100%;
+		max-width: remCalc(70);
+		float: left;
+	}
+	.right{
+		width: 100%;
+		max-width: remCalc(220);
+		float: left;
+		padding-top: remCalc(5);
+		padding-left: remCalc(12);
+	}
+}
+
+// List Number
+.list-number{
+	display: block;
+	padding-left: remCalc(52);
+	list-style: none;
+	counter-reset: numList;
+	li{
+		position: relative;
+		margin-bottom: remCalc(14);
+		&:before{
+			counter-increment: numList;
+			content: counter(numList);
+			font-size: remCalc(20);
+			position: absolute;
+			left: remCalc(-52);
+			text-align: center;
+			color: #fff;
+			line-height: remCalc(40);
+			width: remCalc(40);
+			height: remCalc(40);
+			background: $brand-pink;
+			border-radius: 50%;
+		}
+	}
+}
+
+// Breakpoint Medium
+@media #{$breakpoint-md} {
+
+	.i-box{
+		.right{
+			max-width: remCalc(260);
+		}
+	}
+
+	.list-number{
+		li{
+			margin-bottom: remCalc(26);
+		}
+	}
+
+}
+
+// End Breakpoint Medium
+
+// Breakpoint Large
+@media #{$breakpoint-lg} {
+
+	.i-box{
+		.right{
+			max-width: remCalc(478);
+		}
+	}
+
+}
+// End Breakpoint Large
+
+
+
+

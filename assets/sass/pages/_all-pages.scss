@@ -1,0 +1,144 @@
+////////////////////////////////////
+// Pages
+////////////////////////////////////
+
+.how-it-works{
+	.cover{
+		background-image: url('../img/cover-how-it-works.jpg');
+		background-position: center center;
+	}
+}
+
+.how-do-i-get-it{
+	.cover{
+		background-image: url('../img/cover-how-do-i-get-it.jpg');
+		background-position: center center;
+	}
+	.cards{
+		margin-bottom: 16px;
+	}
+}
+
+.money-savings{
+	.cover{
+		background-image: url('../img/cover-money-savings.jpg');
+		background-position: center top;
+	}
+	h3{
+		font-size: remCalc(20);
+	}
+}
+
+.plans-and-benefits{
+	.cover{
+		background-image: url('../img/cover-plans-benefits.jpg');
+		background-position: center center;
+	}
+}
+
+.terms-and-conditions{
+	.cover{
+		background-image: url('../img/cover-terms-and-conditions.jpg');
+		background-position: center center;
+	}
+}
+
+.member-guide{
+	.cover{
+		background-image: url('../img/cover-member-guide.jpg');
+		background-position: center center;
+	}
+	.img-responsive{
+		margin-bottom: remCalc(24);
+	}
+}
+
+.participant-businesses{
+	.cover{
+		background-image: url('../img/cover-participant-businesses.jpg');
+		background-position: center center;
+	}
+	h3{
+		font-size: remCalc(20);
+		margin-top: remCalc(16);
+	}
+	.participant-businesses-bottom{
+		margin-top: remCalc(36); 
+		text-align: center;
+		h3{
+			margin-bottom: remCalc(22);
+		}
+		.btn{
+			font-size: remCalc(14.5); 
+			margin-top: remCalc(22);
+		}
+	}
+}
+
+// Breakpoint Medium
+@media #{$breakpoint-md} {
+
+	.how-it-works{
+		.cover{
+			background-position: center remCalc(-14);
+		}
+	}
+
+	.how-do-i-get-it{
+		.cover{
+			background-position: center remCalc(-26);
+		}
+	}
+
+	.plans-and-benefits{
+		.cover{
+			background-image: url('../img/cover-plans-benefits.jpg');
+			background-position: center remCalc(-150);
+		}
+	}
+
+	.terms-and-conditions{
+		.cover{
+			background-position: center remCalc(-65);
+		}
+	}
+
+	.participant-businesses-bottom{
+		.btn{
+			font-size: remCalc(16);
+		}
+	}
+
+}
+// End Breakpoint Medium
+
+// Breakpoint Large
+@media #{$breakpoint-lg} {
+
+	.how-it-works{
+		.cover{
+			background-position: center remCalc(-82);
+		}
+	}
+
+	.how-do-i-get-it{
+		.cover{
+			background-position: center remCalc(-96);
+		}
+	}
+
+	.plans-and-benefits{
+		.cover{
+			background-image: url('../img/cover-plans-benefits.jpg');
+			background-position: center remCalc(-480);
+		}
+	}
+
+	.terms-and-conditions{
+		.cover{
+			background-position: center remCalc(-165);
+		}
+	}
+
+}
+// End Breakpoint Large

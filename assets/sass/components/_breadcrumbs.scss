@@ -1,0 +1,30 @@
+////////////////////////////////////
+// Breadcrumbs
+////////////////////////////////////
+
+.breadcrumbs-container{
+	background-color: $breadcrumbs-container-bg;
+	width: 100%;
+}
+
+.breadcrumb{
+	max-width: remCalc(1156);
+	margin: 0 auto;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: remCalc(10);
+	li{
+		a{
+			color: $breadcrumb-link-color;
+		}
+	}
+}
+
+// Breakpoint Medium
+@media #{$breakpoint-md} {
+
+	.breadcrumb{
+		font-size: remCalc(12);
+	}
+
+}

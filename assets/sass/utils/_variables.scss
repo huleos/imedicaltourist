@@ -1,0 +1,69 @@
+////////////////////////////////////
+// Variables
+////////////////////////////////////
+
+
+// Colors
+//////////////////////////////////
+
+// Brand
+$brand-yellow:           #f7b334 !default;
+$brand-green:            #77bc1f !default;
+$brand-purple:           #732282 !default;
+$brand-pink:             #ec0044 !default;
+
+// Social
+$facebook-color:         #3B5998 !default;
+$twitter-color:          #55ACEE !default;
+$youtube-color:          #E52D27 !default;
+$google-color:           #DD4B39 !default;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+$bg-color:            #ffffff !default;
+$text-color:          #444444 !default;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-sans-serif:                    'Open Sans', Helvetica, Arial, sans-serif !default;
+$font-weight:                        300 !default;
+
+// Header
+$main-nav-bg:                         rgba(255,255,255,0.90) !default;
+$main-nav-link-hover-color:           lighten($brand-purple, 10%) !default;
+$main-nav-link-border-bottom:         lighten($brand-purple, 10%) !default;
+
+// Footer
+$footer-nav-link-color:               lighten($brand-purple, 40%) !default;
+$footer-nav-link-hover-color:         #fff !default;
+$footer-nav-link-hover-bg:            lighten($brand-purple, 5%) !default;
+$footer-nav-link-border-bottom:       #8e4d99 !default;
+$footer-nav-link-border-right:        lighten($brand-purple, 30%) !default;
+$copyright-color:                     lighten($brand-purple, 30%) !default;
+
+// Breadcrumbs
+$breadcrumbs-container-bg:            #f0f0f0 !default;
+$breadcrumb-link-color:               $brand-pink !default;
+
+// Buttons
+$btn-color:            #fff !default;
+$btn-focus:            #fff !default;
+// Buttons Colors
+$btn-green-bg:         $brand-green !default;
+$btn-pink-bg:          $brand-pink !default;
+$btn-purple-bg:        $brand-purple !default;
+
+
+// Grid breakpoints
+//
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$breakpoint-sm: "(min-width: 34em)";
+$breakpoint-md: "(min-width: 48em)";
+$breakpoint-lg: "(min-width: 62em)";
+$breakpoint-xl: "(min-width: 75em)";
+

@@ -1,0 +1,11 @@
+////////////////////////////////////
+// Content
+////////////////////////////////////
+
+.content{
+	padding-bottom: remCalc(48);
+}
+
+// Breakpoint Medium
+@media #{$breakpoint-md} {}
+// End Breakpoint Medium

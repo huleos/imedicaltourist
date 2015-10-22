@@ -1,0 +1,156 @@
+////////////////////////////////////
+// Header
+////////////////////////////////////
+
+.navbar{
+	padding-top: remCalc(12);
+	padding-bottom: remCalc(12);
+}
+
+.navbar-brand{
+	min-width: remCalc(130);
+	padding: 0;
+}
+
+.navbar-toggler{
+	font-size: remCalc(14);
+	padding-top: remCalc(16);
+	padding-bottom: remCalc(16);
+	span{
+		font-size: remCalc(30);
+		vertical-align: sub;
+	}
+	&:focus{
+		color: lighten($text-color, 20%);
+	}
+}
+
+#main-nav{
+	position: fixed;
+	z-index: 990;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.90);
+	transform: translateY(-165%);
+	transition-property: transform;
+	transition-duration: 0.5s;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	ul{
+		padding-left: 0;
+		padding-top: 15%;
+		height: 100%;
+	}
+	li{
+		list-style: none;
+		a{
+			font-weight: 600;
+			color: $gray-dark;
+			text-transform: uppercase;
+			display: block;
+			padding: remCalc(12) remCalc(15);
+			text-align: center;
+			width: 90%;
+			border-bottom: 2px solid $gray-dark;
+			margin: 0 auto;
+			&:hover{
+				text-decoration: none;
+				color: $main-nav-link-hover-color;
+				border-color: $main-nav-link-border-bottom;
+			}
+		}
+	}
+	&.is-visible{
+		transform: translateY(0);
+	}
+}
+
+#main-nav{
+	ul.down{
+		padding-top: 0;
+		a{
+			color: $gray;
+	    border-bottom: 1px solid $gray;
+	    font-weight: 400;
+	    font-size: remCalc(15);
+		}
+	}
+}
+
+.close-menu{
+	position: absolute;
+	top: remCalc(10);
+	left: 50%;
+	margin-left: remCalc(-20);
+	display: inline-block;
+	width: remCalc(40);
+	height: remCalc(40);
+	overflow: hidden;
+	&:before,
+	&:after{
+		content: '';
+		display: inline-block;
+		position: absolute;
+		top: remCalc(18);
+		left: remCalc(6);
+		width: remCalc(28);
+		height: remCalc(6);
+		background-color: $brand-purple;
+		transition-property: transform;
+		transition-duration: 0.3s;
+	}
+	&:before{
+		transform: rotate(45deg);
+	}
+	&:after{
+		transform: rotate(135deg);
+	}
+}
+
+
+// Breakpoints
+
+@media #{$breakpoint-md} {
+
+	#main-nav{
+		ul{
+			padding-top: 10%;
+		}
+		li{
+			a{
+				font-size: remCalc(32);
+				width: 50%;
+			}
+		}
+	}
+
+	#main-nav{
+		ul.down{
+			a{
+				font-size: remCalc(21);
+			}
+		}
+	}
+
+	.close-menu{
+		top: remCalc(34);
+	}
+
+}
+
+@media #{$breakpoint-lg} {
+
+	#main-nav{
+		ul{
+			padding-top: 5%;
+		}
+		li{
+			a{
+				font-size: remCalc(32);
+				width: 30%;
+			}
+		}
+	}
+
+}

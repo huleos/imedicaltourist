@@ -1,0 +1,56 @@
+////////////////////////////////////
+// Cover
+////////////////////////////////////
+
+.cover{
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: remCalc(275);
+	position: relative;
+	margin-bottom: remCalc(32);
+	.cover-title{
+		color: #ffffff;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding-top: remCalc(12);
+		padding-bottom: remCalc(12);
+		h1{
+			font-size: remCalc(17);
+			margin-bottom: 0;
+		}
+	}
+}
+
+.cover-title{
+	&.bg-purple{
+		background-color: rgba($brand-purple, .88);
+	}
+	&.bg-green{
+		background-color: rgba($brand-green, .88);
+	}
+}
+
+// Breakpoint Medium
+@media #{$breakpoint-md} {
+	
+	.cover{
+		height: remCalc(350);
+		.cover-title{
+			h1{
+				font-size: remCalc(28);
+			}
+		}
+	}
+}
+// End Breakpoint Medium
+
+// Breakpoint Large
+@media #{$breakpoint-lg} {
+
+	.cover{
+		height: remCalc(500);
+	}
+
+}
+// End Breakpoint Large
