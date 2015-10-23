@@ -71,6 +71,6 @@
     </footer>
 
     <!-- jQuery first, then Bootstrap JS. -->
-    <script src="<?= base_url(); ?>assets/js/all.js"></script>
+    <script src="/assets/js/all.js"></script>
   </body>
 </html>

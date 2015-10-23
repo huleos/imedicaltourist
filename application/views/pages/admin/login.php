@@ -11,7 +11,7 @@
 				<div class="alert alert-danger"><?= validation_errors() ?></div>
 				<?php endif;?>
 
-				<?= form_open('admin/login_validation') ?>
+				<?= form_open('/admin/login_validation') ?>
 				  <h2>Please Login</h2>
 				  <?= form_input('email', '', 'class="form-control" placeholder="Email address" required autofocus') ?>
 				  <?= form_password('password', '', 'class="form-control" placeholder="Password" required') ?>

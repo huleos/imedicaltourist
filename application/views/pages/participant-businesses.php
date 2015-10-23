@@ -24,12 +24,14 @@
 				
 				<!-- Dental -->
 				<div class="i-box">
-					<div class="left">
-						<span class="icon-dental-color"></span>
-					</div>
-					<div class="right">
-						<h3>Benefits in <br><span style="color: #26a5dc;">Dental Clinics</span></h3>
-					</div>
+					<a href="http://sanidentalgroup.com/">
+						<div class="left">
+							<span class="icon-dental-color"></span>
+						</div>
+						<div class="right">
+							<h3>Benefits in <br><span style="color: #26a5dc;">Dental Clinics</span></h3>
+						</div>
+					</a>
 				</div>
 				
 				<!-- Medical -->
@@ -64,12 +66,14 @@
 
 				<!-- Hotels -->
 				<div class="i-box">
-					<div class="left">
-						<span class="icon-hotels-color"></span>
-					</div>
-					<div class="right">
-						<h3>Benefits in <br><span style="color: #603813;">Hotels</span></h3>
-					</div>
+					<a href="http://sanidentalgroup.com/patient-resources/lodging/">
+						<div class="left">
+							<span class="icon-hotels-color"></span>
+						</div>
+						<div class="right">
+							<h3>Benefits in <br><span style="color: #603813;">Hotels</span></h3>
+						</div>
+					</a>
 				</div>
 				
 				<!-- Restaurants -->

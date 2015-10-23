@@ -11,18 +11,18 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<p>Whether you are traveling for a medical treatment, looking for rest and relaxation, a little entertainment or just shopping, your <strong class="strong-green">experience as a Medical Tourist</strong> member will be unique.</p>
+				<p>Whether you are traveling for a medical treatment, looking for rest and relaxation, a little entertainment or just shopping, your <a href="/plans-and-benefits/member-guide"><strong class="strong-green">experience as a Medical Tourist</strong></a> member will be unique.</p>
 			</div>
 		</div>
 
 			<div class="home-box">
 				<img src="<?= base_url(); ?>assets/img/hand-card.png" alt="Image of <?= $title ?>">
 				<p><strong>Clearly doing it right!</strong></p>
-				<a href="how-it-works/how-do-i-get-it" class="btn btn-green">Become a member today!</a>
+				<a href="/how-it-works/how-do-i-get-it" class="btn btn-green">Become a member today!</a>
 			</div>
 			
-			<h2 class="text-pink">Why choose I Medical Tourist?</h2>
-			<p>What makes us special</p>
+			<h2 class="text-pink">Why choose I'm a Medical Tourist?</h2>
+			<p><b>What makes us special</b></p>
 			
 			<div class="row">
 				<div class="col-md-6">

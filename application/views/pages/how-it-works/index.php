@@ -32,7 +32,7 @@
 				<h2 class="text-pink">3. Ready to rumble</h2>
 				<p>You are set! Enjoy the benefits from day one. Have your card with you at all times, this will be your pass to enjoy the benefits at the establishment you wish to visit. </p>
 				<p>Some of the benefits must be booked or arranged prior to your visit. Please make sure to be well informed about the details and conditions.</p>
-				<p><a href="participant-businesses" class="btn btn-green">Participant Businesses</a></p>
+				<p><a href="/participant-businesses" class="btn btn-green">Participant Businesses</a></p>
 				<br>
 
 				<h5>Do you have any question?</h5>
@@ -40,10 +40,10 @@
 
 				<div class="row btns">
 					<div class="col-md-5">
-						<p><a href="how-it-works/how-do-i-get-it" class="btn btn-pink">How do I get It?</a></p>
+						<p><a href="/how-it-works/how-do-i-get-it" class="btn btn-pink">How do I get It?</a></p>
 					</div>
 					<div class="col-md-5">
-						<p><a href="how-it-works/money-savings" class="btn btn-green">Money Savings</a></p>
+						<p><a href="/how-it-works/money-savings" class="btn btn-green">Money Savings</a></p>
 					</div>
 				</div>
 

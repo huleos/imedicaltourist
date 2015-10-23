@@ -24,8 +24,8 @@
 
 				<p>The guide describes the best way to use your card, the benefits of your membership card and the participant businesses where you can enjoy the benefits. You will find useful information for the medical traveler before, during and after the trip, as well as a map with the location of the participant businesses.</p>
 				
-				<img src="<?= base_url(); ?>assets/img/welcoming-guide-sm.jpg" alt="" class="img-responsive hidden-md-up">
-				<img src="<?= base_url(); ?>assets/img/welcoming-guide-lg.jpg" alt="" class="img-responsive hidden-sm-down">
+				<img src="/assets/img/welcoming-guide-sm.jpg" alt="" class="img-responsive hidden-md-up">
+				<img src="/assets/img/welcoming-guide-lg.jpg" alt="" class="img-responsive hidden-sm-down">
 
 			</div>
 

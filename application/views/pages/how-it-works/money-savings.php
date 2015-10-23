@@ -131,7 +131,7 @@
 			</div>
 			
 			<div class="col-md-12">
-				<p>For detailed information about the membership plans please go to <strong><a href="plans-and-benefits">Plan & Benefits</a></strong></p>
+				<p>For detailed information about the membership plans please go to <strong><a href="/plans-and-benefits">Plan & Benefits</a></strong></p>
 			</div>
 
 		</div>

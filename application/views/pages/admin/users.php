@@ -37,7 +37,7 @@
 		}
 	</style>
 	<!-- CSS -->
-  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="admin-users">
 <!-- HEADER -->
@@ -45,13 +45,13 @@
     <div class="navbar">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="<?= base_url(); ?>assets/img/logo.svg" alt="">
+          <img src="/assets/img/logo.svg" alt="">
         </a>
         <ul class="login">			
 					<?php if ($this->session->userdata('is_logged_in')): ?>
 						<li>You are logged in as <b><?= ($this->session->userdata('email')); ?></b></li>
 						<li> | </li>
-						<li><a href="<?= base_url().'admin/logout' ?>">Logout</a></li>
+						<li><a href="/admin/logout">Logout</a></li>
 					<?php endif; ?>
 				</ul>
       </div>

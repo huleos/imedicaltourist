@@ -57,10 +57,10 @@
 				<br>
 				<div class="row btns">
 					<div class="col-md-5">
-						<p><a href="plans-and-benefits/terms-and-conditions" class="btn btn-pink">Membership Terms and Conditions</a></p>
+						<p><a href="/plans-and-benefits/terms-and-conditions" class="btn btn-pink">Membership Terms and Conditions</a></p>
 					</div>
 					<div class="col-md-5">
-						<p><a href="plans-and-benefits/member-guide" class="btn btn-green">I'm a Medical Tourist Guide</a></p>
+						<p><a href="/plans-and-benefits/member-guide" class="btn btn-green">I'm a Medical Tourist Guide</a></p>
 					</div>
 				</div>
 

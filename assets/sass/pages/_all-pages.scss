@@ -60,7 +60,7 @@
 	}
 	h3{
 		font-size: remCalc(20);
-		margin-top: remCalc(16);
+		// margin-top: remCalc(16);
 	}
 	.participant-businesses-bottom{
 		margin-top: remCalc(36); 
@@ -71,6 +71,12 @@
 		.btn{
 			font-size: remCalc(14.5); 
 			margin-top: remCalc(22);
+		}
+	}
+	.i-box{
+		margin-bottom: remCalc(26);
+		a{
+			color: inherit;
 		}
 	}
 }
@@ -130,7 +136,7 @@
 	.plans-and-benefits{
 		.cover{
 			background-image: url('../img/cover-plans-benefits.jpg');
-			background-position: center remCalc(-480);
+			background-position: center remCalc(-286);
 		}
 	}
 

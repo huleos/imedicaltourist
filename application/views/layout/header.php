@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>
 
     <!-- SEO -->
     <title><?= $title ?></title>
     <meta name="description" content="<?= $description ?>" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
   <body>
@@ -21,7 +21,7 @@
     <div class="navbar">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="<?= base_url(); ?>assets/img/logo.svg" alt="">
+          <img src="/assets/img/logo.svg" alt="">
         </a>
         <button class="navbar-toggler pull-right" type="button">
           MENU <span>&#9776;</span>

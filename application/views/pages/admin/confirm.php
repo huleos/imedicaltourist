@@ -9,7 +9,7 @@
 			<?php if(isset($msg_confirm)): ?>
 				<h2>Sign Up Confirmed</h2>
 				<p>Thank you for signing!</p>
-				<p><a href="<?= base_url().'admin/login' ?>">Login</a></p>
+				<p><a href="/admin/login">Login</a></p>
 			<?php endif; ?>
 			<?php if(isset($msg_confirm_error)): ?>
 				<div class="alert alert-danger"><?= $msg_confirm_error ?></div>
