@@ -40,11 +40,14 @@
 		height: remCalc(238);
 		color: #fff;
 		margin: remCalc(15) remCalc(-15) remCalc(30) remCalc(-15);
-		img{
+		#hand-left{
+			display: none;
+		}
+		#hand-right{
 			position: absolute;
 			right: 0;
 			bottom: 0;
-			max-width: remCalc(200);
+			max-width: remCalc(220);
 		}
 		p{
 			font-size: remCalc(18);
@@ -77,9 +80,16 @@
 	.home{
 		.home-box{
 			min-height: remCalc(354);
-			padding-top: remCalc(200);
-			padding-left: remCalc(30);
-			img{
+			padding-top: remCalc(226);
+			padding-left: remCalc(234);
+			#hand-left{
+				display: block;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				max-width: remCalc(300);
+			}
+			#hand-right{
 				max-width: 100%;
 			}
 			p{
@@ -102,6 +112,25 @@
 	.home-cover{
 		background-position: 0 remCalc(-190);
 		height: remCalc(544);
+	}
+
+	.home{
+		.home-box{
+			padding-left: remCalc(288);
+			#hand-left{
+				max-width: 100%; 
+			}
+			#hand-right{
+				max-width: 100%;
+			}
+			p{
+				font-size: remCalc(24);
+			}
+			.btn{
+				font-size: remCalc(20);
+				padding: remCalc(14) remCalc(22);
+			}
+		}
 	}
 
 	.home{

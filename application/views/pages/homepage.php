@@ -16,7 +16,8 @@
 		</div>
 
 			<div class="home-box">
-				<img src="<?= base_url(); ?>assets/img/hand-card.png" alt="Image of <?= $title ?>">
+				<img src="/assets/img/hand-card-left.png" id="hand-left" alt="Image of <?= $title ?>">
+				<img src="/assets/img/hand-card-right.png" id="hand-right" alt="Image of <?= $title ?>">
 				<p><strong>Clearly doing it right!</strong></p>
 				<a href="/how-it-works/how-do-i-get-it" class="btn btn-green">Become a member today!</a>
 			</div>

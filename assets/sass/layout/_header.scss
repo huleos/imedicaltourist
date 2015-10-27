@@ -10,6 +10,9 @@
 .navbar-brand{
 	min-width: remCalc(130);
 	padding: 0;
+	img{
+		max-width: remCalc(130); 
+	}
 }
 
 .navbar-toggler{
